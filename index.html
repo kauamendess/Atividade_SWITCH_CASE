@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercícios SWITCH</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Exercícios com SWITCH</h1>
+
+      <!-- FILMES -->
+      <div class="card">
+        <h2>🎬 Estilo de Filme Favorito</h2>
+        <input
+          type="number"
+          id="filme"
+          placeholder="Digite um número (1 a 6)"
+        />
+        <button onclick="escolherFilme()">Escolher</button>
+        <p id="resultadoFilme"></p>
+      </div>
+
+      <!-- MÚSICA -->
+      <div class="card">
+        <h2>🎵 Gênero Musical Preferido</h2>
+        <input
+          type="number"
+          id="musica"
+          placeholder="Digite um número (1 a 6)"
+        />
+        <button onclick="escolherMusica()">Escolher</button>
+        <p id="resultadoMusica"></p>
+      </div>
+
+      <!-- TEMA LIVRE -->
+      <div class="card">
+        <h2>💡 Escolha um Tema</h2>
+        <p>
+          1 - Tecnologia<br />
+          2 - Esportes<br />
+          3 - Jogos<br />
+          4 - Estudos
+        </p>
+        <input type="number" id="tema" placeholder="Digite um número (1 a 4)" />
+        <button onclick="escolherTema()">Escolher</button>
+        <p id="resultadoTema"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
